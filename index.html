@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio | Freelance Profile</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --dark-color: #1e293b;
+            --light-bg: #f8fafc;
+        }
+
+        body {
+            font-family: 'Kanit', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--light-bg);
+            color: var(--dark-color);
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: -50px auto 50px;
+            padding: 2rem;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid white;
+            margin-bottom: 1rem;
+            object-fit: cover;
+        }
+
+        .section-title {
+            border-bottom: 2px solid var(--primary-color);
+            display: inline-block;
+            margin-bottom: 1.5rem;
+            padding-bottom: 5px;
+        }
+
+        .skills-tag {
+            display: inline-block;
+            background: #e2e8f0;
+            padding: 5px 15px;
+            border-radius: 20px;
+            margin: 5px;
+            font-size: 0.9rem;
+        }
+
+        .contact-btn {
+            display: block;
+            width: 100%;
+            text-align: center;
+            background: var(--primary-color);
+            color: white;
+            padding: 1rem;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            margin-top: 2rem;
+            transition: background 0.3s;
+        }
+
+        .contact-btn:hover {
+            background: #1d4ed8;
+        }
+
+        .project-card {
+            border-left: 4px solid var(--primary-color);
+            background: #f1f5f9;
+            padding: 1rem;
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="https://via.placeholder.com/150" alt="Profile" class="profile-img">
+    <h1>[ชื่อ-นามสกุล ของคุณ]</h1>
+    <p>Freelance [ตำแหน่งงานของคุณ เช่น Web Developer / Graphic Designer]</p>
+</header>
+
+<div class="container">
+    <section>
+        <h3 class="section-title">เกี่ยวกับฉัน</h3>
+        <p>สวัสดีครับ! ผมเป็นฟรีแลนซ์ที่มีความเชี่ยวชาญด้าน [ใส่สิ่งที่ถนัด] มีประสบการณ์ทำงานมาแล้ว [จำนวนปี] ปี มุ่งเน้นการทำงานที่มีคุณภาพและส่งมอบงานตรงเวลา</p>
+    </section>
+
+    <section>
+        <h3 class="section-title">ทักษะความสามารถ (Skills)</h3>
+        <div>
+            <span class="skills-tag">Skill 1</span>
+            <span class="skills-tag">Skill 2</span>
+            <span class="skills-tag">Skill 3</span>
+            <span class="skills-tag">Skill 4</span>
+        </div>
+    </section>
+
+    <section>
+        <h3 class="section-title">ผลงานที่ผ่านมา</h3>
+        <div class="project-card">
+            <strong>ชื่อโครงการ A</strong>
+            <p>รายละเอียดสั้นๆ ว่าคุณทำอะไรในโปรเจกต์นี้</p>
+        </div>
+        <div class="project-card">
+            <strong>ชื่อโครงการ B</strong>
+            <p>รายละเอียดสั้นๆ เกี่ยวกับผลลัพธ์ที่ได้</p>
+        </div>
+    </section>
+
+    <section>
+        <h3 class="section-title">ติดต่อจ้างงาน</h3>
+        <p>📧 อีเมล: yourname@email.com</p>
+        <p>📱 เบอร์โทรศัพท์: 0xx-xxx-xxxx</p>
+        <p>💬 Line ID: @yourid</p>
+        
+        <a href="mailto:yourname@email.com" class="contact-btn">ส่งอีเมลหาฉันตอนนี้</a>
+    </section>
+</div>
+
+</body>
+</html>
